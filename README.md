@@ -1,4 +1,4 @@
-# 30DaysOfCode-Javascript :computer:
+# 30DaysOfCode of HackerRank -Javascript :computer:
 My Java Scripts solutions for the 30 Days Of Code challenges on [HackerRank](https://www.hackerrank.com/domains/tutorials/30-days-of-code).
 ## Day 0 - Hello, World.
 **Input Format:** _A single line of text denoting  (the variable whose contents must be printed)._
