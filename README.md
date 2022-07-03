@@ -45,3 +45,25 @@ My Java Scripts solutions for the 30 Days Of Code challenges on [HackerRank](htt
   8.0
   HackerRank is the best place to learn and practice coding!
 ```
+## Day 2 - Operators
+**Task:** _Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost. Round the result to the nearest integer._
+
+**Input Format:** 
+  There are  lines of numeric input:
+    1. The first line has a double, meal_cost (the cost of the meal before tax and tip).
+    2. The second line has an integer, tip_percent (the percentage of meal_cost being added as tip).
+    3. The third line has an integer, tax_percent (the percentage of meal_cost being added as tax).
+
+**Output Format:** _print the meal's total cost._
+
+**Sample Input**
+```
+  12.00
+  20
+  8
+```
+
+**Sample Output**
+```
+  15
+```
