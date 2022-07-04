@@ -97,3 +97,41 @@ My Java Scripts solutions for the 30 Days Of Code challenges on [HackerRank](htt
 ```
   Not Weird
 ```
+## Day 4 - Class vs. Instance
+**Task:** _Write a Person class with an instance variable, age, and a constructor that takes an integer, initialAge, as a parameter. The constructor must assign initialAge to age after confirming the argument passed as initialAge is not negative; if a negative argument is passed as initialAge, the constructor should set age to 0 and print **Age is not valid, setting age to 0.**. In addition, you must write the following instance methods:_
+  1. yearPasses() should increase the age instance variable by 1.
+  2. amIOld() should perform the following conditional actions:
+     - If age < 13, print **You are young.**.
+     - If age >= 13 and age < 18, print **You are a teenager.**.
+     - Otherwise, print **You are old.**.
+
+**Input Format:** 
+  _Input is handled for you by the stub code in the editor._
+  _The first line contains an integer, T (the number of test cases), and the T subsequent lines each contain an integer denoting the age of a Person instance._
+
+**Output Format:** _Complete the method definitions provided in the editor so they meet the specifications outlined above; If your methods are implemented correctly, each test case will print 2 or 3 lines (depending on whether or not a valid initialAge was passed to the constructor)._
+
+**Sample Input**
+```
+  4
+  -1
+  10
+  16
+  18
+```
+
+**Sample Output**
+```
+  Age is not valid, setting age to 0.
+  You are young.
+  You are young.
+
+  You are young.
+  You are a teenager.
+
+  You are a teenager.
+  You are old.
+
+  You are old.
+  You are old.
+```
