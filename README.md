@@ -163,3 +163,25 @@ My Java Scripts solutions for the 30 Days Of Code challenges on [HackerRank](htt
   2 x 10 = 20
   
 ```
+## Day 6 - Let's Review
+
+**Task:** _Given a string, S, of length N that is indexed from 0 to N-1, print its even-indexed and odd-indexed characters as 2 space-separated strings on a single line (see the Sample below for more detail)._
+
+**Input Format:** _The first line contains an integer, T (the number of test cases)._
+_Each line i of the T subsequent lines contain a string, S._
+
+**Output Format:** _For each String  S<sub>j</sub> (where 0 <= j<= T-1), print S<sub>j</sub> 's even-indexed characters, followed by a space, followed by S<sub>j</sub>'s odd-indexed characters._**
+
+**Sample Input**
+```
+  2
+  Hacker
+  Rank
+```
+
+**Sample Output**
+```
+  Hce akr
+  Rn ak
+  
+```
