@@ -170,7 +170,7 @@ My Java Scripts solutions for the 30 Days Of Code challenges on [HackerRank](htt
 **Input Format:** _The first line contains an integer, T (the number of test cases)._
 _Each line i of the T subsequent lines contain a string, S._
 
-**Output Format:** _For each String  S<sub>j</sub> (where 0 <= j<= T-1), print S<sub>j</sub> 's even-indexed characters, followed by a space, followed by S<sub>j</sub>'s odd-indexed characters._**
+**Output Format:** _For each String  S<sub>j</sub> (where 0 <= j<= T-1), print S<sub>j</sub> 's even-indexed characters, followed by a space, followed by S<sub>j</sub>'s odd-indexed characters._
 
 **Sample Input**
 ```
@@ -192,7 +192,7 @@ _Each line i of the T subsequent lines contain a string, S._
 **Input Format:** _The first line contains an integer,  N(the size of our array).
 The second line contains N space-separated integers that describe array A's_
 
-**Output Format:** _Print the elements of array A in reverse order as a single line of space-separated numbers._**
+**Output Format:** _Print the elements of array A in reverse order as a single line of space-separated numbers._
 
 **Sample Input**
 ```
@@ -205,7 +205,7 @@ The second line contains N space-separated integers that describe array A's_
   2 3 4 1
   
 ```
-## Day 7 - Arrays
+## Day 8 - Arrays
 
 **Task:** _Given n names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each name queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for name is not found, print Not found instead._
 
@@ -214,7 +214,7 @@ _Each of the n subsequent lines describes an entry in the form of n space-separa
 
 _After the n lines of phone book entries, there are an unknown number of lines of queries. Each line (query) contains a name to look up, and you must continue reading lines until there is no more input._
 
-**Output Format:** _On a new line for each query, print Not found if the name has no corresponding entry in the phone book; otherwise, print the full **name** and **phonenumber** in the format name=phoneNumber._**
+**Output Format:** _On a new line for each query, print Not found if the name has no corresponding entry in the phone book; otherwise, print the full **name** and **phonenumber** in the format name=phoneNumber._
 
 **Sample Input**
 ```
@@ -232,5 +232,29 @@ _After the n lines of phone book entries, there are an unknown number of lines o
   sam=99912222
   Not found
   harry=12299933
+  
+```
+## Day 9 - Recursion 3
+
+**Task:** _A recursive function is a nonleaf function that calls itself. The factorial function can be written as a recursive function call. Recall that factorial(n) = n × (n – 1) × (n – 2) × … × 2 × 1. The factorial function can be rewritten recursively as factorial(n) = n × factorial(n – 1). The factorial of 1 is simply 1._
+
+**Input Format:** _A single integer, n (the argument to pass to factorial)._
+
+**Output Format:** _the factorial of n_
+
+**Explanation:**_Consider the following steps. After the recursive calls from step 1 to 3, results are accumulated from step 3 to 1._
+
+1. factorial(3) = 3 × factorial(2) = 3 * 2 = 6 (The answer)
+2. factorial(2) = 2 × factorial(1) = 2 * 1 = 2
+3. factorial(1) = 1
+
+**Sample Input**
+```
+  3
+```
+
+**Sample Output**
+```
+  6
   
 ```
