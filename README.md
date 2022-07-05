@@ -185,3 +185,23 @@ _Each line i of the T subsequent lines contain a string, S._
   Rn ak
   
 ```
+## Day 7 - Arrays
+
+**Task:** _Given an array, A, of N integers, print A's elements in reverse order as a single line of space-separated numbers._
+
+**Input Format:** _The first line contains an integer,  N(the size of our array).
+The second line contains N space-separated integers that describe array A's_
+
+**Output Format:** _Print the elements of array A in reverse order as a single line of space-separated numbers._**
+
+**Sample Input**
+```
+  4
+  1 4 3 2
+```
+
+**Sample Output**
+```
+  2 3 4 1
+  
+```
