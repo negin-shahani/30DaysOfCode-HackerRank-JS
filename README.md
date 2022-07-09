@@ -279,3 +279,70 @@ _After the n lines of phone book entries, there are an unknown number of lines o
   1
   
 ```
+## Day 11 - 2D Arrays
+
+**Context** _Given a *6 x 6* 2D Array, A:_
+```
+  1 1 1 0 0 0
+  0 1 0 0 0 0
+  1 1 1 0 0 0
+  0 0 0 0 0 0
+  0 0 0 0 0 0
+  0 0 0 0 0 0
+```
+_We define an hourglass in A to be a subset of values with indices falling in this pattern in A's graphical representation:_
+
+```
+  a b c
+    d
+  e f g
+```
+_There are *16* hourglasses in A, and an hourglass sum is the sum of an hourglass' values._
+
+**Task:** _Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum._
+
+**Input Format:** _There are 6 lines of input, where each line contains 6 space-separated integers that describe the 2D Array A._
+
+**Output Format:** _Print the maximum hourglass sum in A._
+
+**Explanation:** _*A* contains the following hourglasses:_
+
+```
+  1 1 1   1 1 0   1 0 0   0 0 0
+    1       0       0       0
+  1 1 1   1 1 0   1 0 0   0 0 0
+
+  0 1 0   1 0 0   0 0 0   0 0 0
+    1       1       0       0
+  0 0 2   0 2 4   2 4 4   4 4 0
+
+  1 1 1   1 1 0   1 0 0   0 0 0
+    0       2       4       4
+  0 0 0   0 0 2   0 2 0   2 0 0
+
+  0 0 2   0 2 4   2 4 4   4 4 0
+    0       0       2       0
+  0 0 1   0 1 2   1 2 4   2 4 0
+```
+_The hourglass with the maximum sum (19) is:_
+```
+  2 4 4
+    2
+  1 2 4
+```
+
+**Sample Input**
+```
+  1 1 1 0 0 0
+  0 1 0 0 0 0
+  1 1 1 0 0 0
+  0 0 2 4 4 0
+  0 0 0 2 0 0
+  0 0 1 2 4 0
+```
+
+**Sample Output**
+```
+  19
+  
+```
