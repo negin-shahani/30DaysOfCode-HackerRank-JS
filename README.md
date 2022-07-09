@@ -258,3 +258,24 @@ _After the n lines of phone book entries, there are an unknown number of lines o
   6
   
 ```
+## Day 10 - Binary Numbers
+
+**Task:** _Given a base-10 integer, n, convert it to binary (base- 2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation. When working with different bases, it is common to show the base as a subscript._
+
+**Input Format:** _A single integer, n._
+
+**Output Format:** _Print a single base-10 integer that denotes the maximum number of consecutive 1's in the binary representation of n._
+
+**Explanation:**_The binary representation of 5<sub>10</sub> is 101<sub>2</sub>, so the maximum number of consecutive 1's is 1. _
+
+
+**Sample Input**
+```
+  5
+```
+
+**Sample Output**
+```
+  1
+  
+```
