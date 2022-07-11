@@ -417,3 +417,27 @@ _Complete the Student class by writing the following:_
   Price: 248
   
 ```
+
+## Day 14: Scope
+
+**Task:** _Complete the Difference class by writing the following:_
+- A class constructor that takes an array of integers as a parameter and saves it to the `__elements`  instance variable.
+- A computeDifference method that finds the maximum absolute difference between any 2 numbers in `__elements` and stores it in the `maximumDifference` instance variable.
+
+**Input Format:** _Reads in 2 lines of input. The first line contains `N`, the size of the elements array. The second line has N space-separated integers that describe the `__elements` array._
+
+**Output Format:** _The Solution class will print the value of the `maximumDifference` instance variable._
+
+**Sample Input**
+```
+  STDIN   Function
+  -----   --------
+  3       __elements[] size N = 3
+  1 2 5   __elements = [1, 2, 5]
+```
+
+**Sample Output**
+```
+  4
+  
+```
