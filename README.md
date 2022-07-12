@@ -466,3 +466,31 @@ _Each of the next `T` lines contains an integer to insert at the end of the list
   2 3 4 1
   
 ```
+
+## Day 16: Exceptions - String to Integer
+
+**Task:** _Read a string, `S`, and print its integer value; if `S` cannot be converted to an integer, print `Bad String`._
+
+**Input Format:** _A single string, `S`._
+
+**Output Format:** _Print the parsed integer value of  `S`, or `Bad String` if S cannot be converted to an integer._
+
+**Sample Input 0**
+```
+  3
+```
+
+**Sample Output 0**
+```
+  3
+```
+
+**Sample Input 1**
+```
+  za
+```
+
+**Sample Output 1**
+```
+  Bad String
+```
